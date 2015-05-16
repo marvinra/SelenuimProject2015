@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Twitter test on Web browser" verbose="1" >
+    <parameter name = "url" value = "https://www.twitter.com"/>
+    <test name = "Twitter Login">
+        <classes>
+            <class name="TwitterApi.TwitterData"/>
+        </classes>
+    </test>
+
+</suite>
